@@ -1,4 +1,6 @@
-# Gelatek Hub - Reborn.
+# Gelatek Hub
+
+# Leave a star if you like this
 
 # What does this hub offer?
   - Full R15 and R6 Support.
