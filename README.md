@@ -1,6 +1,6 @@
 # Gelatek Hub
 
-# Leave a star if you like this
+# Leave a star if you like my exploit hub.
 
 # What does this hub offer?
   - Full R15 and R6 Support.
