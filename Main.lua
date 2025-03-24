@@ -5,7 +5,7 @@ end
 if isfile and isfolder and writefile and (getsynasset or getcustomasset) and (not isfolder("GelatekHub")) then
 	local Bindable = Instance.new("BindableFunction")
 	local function Copy(e)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/packages/AudioPack.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek00/GelatekHub/main/src/packages/AudioPack.lua"))()
 		Bindable:Destroy()
 	end
 	Bindable.OnInvoke = Copy
@@ -17,7 +17,7 @@ if isfile and isfolder and writefile and (getsynasset or getcustomasset) and (no
 		Button1 = "Download Data";
 	})
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/packages/FunctionPack.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek00/GelatekHub/main/src/packages/FunctionPack.lua"))()
 Global.GelatekHubConfig = {
 	["Permanent Death"] = false,
 	["Torso Fling"] = false,
@@ -28,7 +28,7 @@ Global.GelatekHubConfig = {
 	["Anti Void"] = false,
 	["Anti Void Offset"] = 75
 }
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/lib/UILibrary.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek00/GelatekHub/main/src/lib/UILibrary.lua"))()
 local Main = Library:Create("Gelatek Hub - V1.0.4c", "Thanks for using the hub! :3", Color3.fromRGB(50, 168, 82))
 local UserInputService = game:GetService("UserInputService")
 if UserInputService.TouchEnabled then
@@ -68,7 +68,7 @@ local function BetterStopScript()
 end
 
 Reanimate:MakeButton("Reanimate", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/lib/Reanimate.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek00/GelatekHub/main/src/lib/Reanimate.lua"))()
 end)
 Reanimate:MakeToggle("Permanent Death", function(Bool)
 	Global.GelatekHubConfig["Permanent Death"] = Bool
@@ -162,25 +162,25 @@ end
 
 do -- [[ Scripts ]] --
 	HatScripts:MakeButton("Dual Ultima", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/DualUltima.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/someoneplanet/GelatekHub/main/src/scripts/DualUltima.lua"))()
 	end)
 	HatScripts:MakeButton("The Hotline", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/TheHotline.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/someoneplanet/GelatekHub/main/src/scripts/TheHotline.lua"))()
 	end)
 	HatScripts:MakeButton("Attack Rifle", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/AttackRifle.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/someoneplanet/GelatekHub/main/src/scripts/AttackRifle.lua"))()
 	end)
 	HatScripts:MakeButton("Carnage", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/TheCarnage.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/someoneplanet/GelatekHub/main/src/scripts/TheCarnage.lua"))()
 	end)
 	HatScripts:MakeButton("Neptunian V", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/NeptunianV.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/someoneplanet/GelatekHub/main/src/scripts/NeptunianV.lua"))()
 	end)
 	HatScripts:MakeButton("Zenith Battle Rifle-70", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/ZenithAttackRifle.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/someoneplanet/GelatekHub/main/src/scripts/ZenithAttackRifle.lua"))()
 	end)
 	HatScripts:MakeButton("Chips", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/TheChips.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/someoneplanet/GelatekHub/main/src/scripts/TheChips.lua"))()
 	end)
 	HatScripts:MakeButton("Void Scythe", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/VoidScythe.lua"))()
